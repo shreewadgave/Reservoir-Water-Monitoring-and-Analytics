@@ -1,0 +1,7 @@
+1. python ingest_multi_pdf.py --pdfdir "./CWC PDFS" --outdir "./data"
+
+2. python build_index.py --datadir "./data"
+
+3. set GROQ_API_KEY=Paste your GROQ api key
+
+4. python app_simple_professional.py --datadir "./data"
